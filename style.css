@@ -1,0 +1,65 @@
+body {
+    background-image: url("https://images5.alphacoders.com/388/388974.jpg");
+    background-repeat: repeat;
+    color: #8BC34A;
+    text-align: center;
+    -webkit-text-stroke: 0.3px black;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+
+.grande {font-size: 30px;}
+
+.grande2 {font-size: 39px;}
+
+.piccolo {font-size: 15px;}
+
+.sottolineato {text-decoration: underline;}
+
+
+@keyframes swing {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(5deg);
+  }
+  20% {
+    transform: rotate(-5deg);
+  }
+  30% {
+    transform: rotate(3deg);
+  }
+  40% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+  60% {
+    transform: rotate(-2deg);
+  }
+  70% {
+    transform: rotate(1deg);
+  }
+  80% {
+    transform: rotate(-1deg);
+  }
+  90% {
+    transform: rotate(0.5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.swing {
+  display: inline-block;
+  animation-name: swing;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+
